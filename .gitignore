@@ -1,2 +1,5 @@
 .venv/*
 models/*
+
+./script.sh
+script.sh
