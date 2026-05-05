@@ -1,0 +1,40 @@
+{
+  "settings": {
+    "seed": 42,
+    "tune": false,
+    "fast": true,
+    "max_features": 15000,
+    "svd_components": 150,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "max_train_samples": 4000,
+    "max_val_samples": 2000,
+    "max_test_samples": 4000
+  },
+  "logistic_regression": {
+    "training_info": {
+      "tuned": false
+    },
+    "test_metrics": {
+      "accuracy": 0.83525,
+      "precision": 0.8196001950268161,
+      "recall": 0.8532994923857868,
+      "f1": 0.8361104202934594,
+      "roc_auc": 0.9170393338501163
+    }
+  },
+  "random_forest": {
+    "training_info": {
+      "tuned": false
+    },
+    "test_metrics": {
+      "accuracy": 0.80825,
+      "precision": 0.8288682340076544,
+      "recall": 0.7695431472081218,
+      "f1": 0.7981047644116873,
+      "roc_auc": 0.8809023280238053
+    }
+  }
+}
